@@ -1,0 +1,37 @@
+#user-exclude-option-content {
+    position: relative;
+}
+
+#user-search-area {
+    display: flex;
+    align-items: center;
+}
+
+#user-search-area > input {
+    border-radius: 0.2rem 0 0 0.2rem;
+    border-right-width: 0;   
+    width: 215px;
+}
+
+#user-search-area > button {
+    height: 28px;
+    padding: 0 8px;
+    border-radius: 0 0.2rem 0.2rem 0;
+}
+
+#user-exclude-error {
+    position: absolute;
+    top: 30px;
+}
+
+#excluded-user-list {
+    width: 275px;
+    border-radius: 0.2rem;
+    margin-top: 23.2px;
+    max-height: 548.8px;
+    overflow-y: auto;
+}
+
+#excluded-user-list > li {
+    padding: 3px 8px;
+}

@@ -1,0 +1,245 @@
+body {
+    font-family: pretendard, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    overflow-y: scroll !important;
+}
+
+header {
+    min-width: 1140px;
+    height: 93px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #b7b7b7;
+}
+
+header > img {
+    height: 3.5rem;
+}
+
+header > h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.container {
+    width: 1140px;
+    max-width: none;
+}
+
+.col:not(.option-seperator) {
+    padding: 0 52px;
+}
+
+h2 {
+    font-size: 1.5em;
+    display: inline-block;
+    margin: 8px 0;
+}
+
+img[alt="도움말"] {
+    width: 1.25em;
+    margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+input {
+    border-radius: 0.2rem;
+    border-width: 1px;
+    border-color: #b7b7b7;
+}
+
+.btn:disabled {
+    opacity: 0.4;
+}
+
+.tooltip {
+    font-size: 0.8em;
+    position: absolute !important;
+}
+
+.error {
+    font-size: 0.8em;
+    color: #e22828;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-group-item:hover {
+    background-color: #e6e6e6;
+}
+
+.option-seperator {
+    margin-top: 12px;
+    padding: 0;
+    max-width: 1px;
+    background-color: #b7b7b7;
+}
+
+#problem-set-make-button {
+    flex-basis: content;
+    margin: 16px auto;
+}
+
+#problem-set-make-error-list {
+    flex-basis: content;
+    margin: 0 auto 16px;
+    list-style-type: none;
+}
+
+#problem-set-make-error-list > li {
+    vertical-align: middle;
+}
+
+#problem-set-make-error-list > li > img {
+    margin-right: 4px;
+}
+
+.tier-0 {
+    color: #ad5600;
+}
+
+.tier-1 {
+    color: rgb(157, 73, 0);
+}
+
+.tier-2 {
+    color: rgb(165, 79, 0);
+}
+
+.tier-3 {
+    color: rgb(173, 86, 0);
+}
+
+.tier-4 {
+    color: rgb(181, 93, 10);
+}
+
+.tier-5 {
+    color: rgb(198, 119, 57);
+}
+
+.tier-6 {
+    color: #435f7a;
+}
+
+.tier-7 {
+    color: rgb(56, 84, 110);
+}
+
+.tier-8 {
+    color: rgb(61, 90, 116);
+}
+
+.tier-9 {
+    color: rgb(67, 95, 122);
+}
+
+.tier-10 {
+    color: rgb(73, 101, 128);
+}
+
+.tier-11 {
+    color: rgb(78, 106, 134);
+}
+
+.tier-12 {
+    color: #ec9a00;
+}
+
+.tier-13 {
+    color: rgb(210, 133, 0);
+}
+
+.tier-14 {
+    color: rgb(223, 143, 0);
+}
+
+.tier-15 {
+    color: rgb(236, 154, 0);
+}
+
+.tier-16 {
+    color: rgb(249, 165, 24);
+}
+
+.tier-17 {
+    color: rgb(255, 176, 40);
+}
+
+.tier-18 {
+    color: #27e2a4;
+}
+
+.tier-19 {
+    color: rgb(0, 199, 139);
+}
+
+.tier-20 {
+    color: rgb(0, 212, 151);
+}
+
+.tier-21 {
+    color: rgb(39, 226, 164);
+}
+
+.tier-22 {
+    color: rgb(62, 240, 177);
+}
+
+.tier-23 {
+    color: rgb(81, 253, 189);
+}
+
+.tier-24 {
+    color: #00b4fc;
+}
+
+.tier-25 {
+    color: rgb(0, 158, 229);
+}
+
+.tier-26 {
+    color: rgb(0, 169, 240);
+}
+
+.tier-27 {
+    color: rgb(0, 180, 252);
+}
+
+.tier-28 {
+    color: rgb(43, 191, 255);
+}
+
+.tier-29 {
+    color: rgb(65, 202, 255);
+}
+
+.tier-30 {
+    color: #ff0062;
+}
+
+.tier-31 {
+    color: rgb(224, 0, 76);
+}
+
+.tier-32 {
+    color: rgb(234, 0, 83);
+}
+
+.tier-33 {
+    color: rgb(245, 0, 90);
+}
+
+.tier-34 {
+    color: rgb(255, 0, 98);
+}
+
+.tier-35 {
+    color: rgb(255, 48, 113);
+}

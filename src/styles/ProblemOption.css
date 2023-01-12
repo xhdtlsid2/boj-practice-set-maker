@@ -1,0 +1,52 @@
+#problem-option-content {
+    max-height: 600px;
+    overflow-y: auto;
+    width: 275px;
+}
+
+.group-problem-option {
+    display: flex;
+}
+
+.detail-toggle-column {
+    width: 29px;
+}
+
+.detail-toggle-column > button {
+    padding: 2px 0;
+    border-radius: 0.2rem;
+    border-color: #b7b7b7;
+    width: 100%;
+    box-shadow: none !important;
+}
+
+.detail-toggle-column + div {
+    flex-grow: 1;
+}
+
+.single-problem-option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 8px;
+    border: 1px solid #dfdfdf;
+    border-radius: 0.2rem;
+}
+
+.single-problem-option:nth-child(n+2) {
+    margin-left: 12px;
+}
+
+.single-problem-option:hover {
+    background-color: #e6e6e6;
+}
+
+.single-problem-option input {
+    width: 50px;
+    height: 1.4em;
+    margin-right: 3px;
+}
+
+.single-problem-option input:disabled {
+    background-color: #bbbbbb;
+}

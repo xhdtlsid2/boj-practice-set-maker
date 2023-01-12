@@ -1,0 +1,66 @@
+button[id^="page-move-button"] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    border-color: #dfdfdf;
+    background-color: #ffffff;
+    box-shadow: none !important;
+}
+
+button[id^="page-move-button"]:disabled {
+    border-color: #dfdfdf;
+    background-color: #ffffff;
+    opacity: 0.4;
+}
+
+#page-move-button-prev {
+    width: 30px;
+    border-right-width: 0;
+    border-radius: 0.375rem 0 0 0.375rem;
+}
+
+#page-move-button-next {
+    width: 31px;
+    border-left-width: 0;
+    border-radius: 0 0.375rem 0.375rem 0;
+}
+
+#problem-set-list {
+    flex: 1 0;
+    padding: 0;
+    background-color: #dfdfdf;
+    border-radius: 0;
+}
+
+#problem-set-list > li {
+    display: flex;
+    flex-direction: column;
+    width: 83px;
+    border-radius: 0;
+    font-weight: bold;
+    padding: 4px 0;
+}
+
+#problem-set-list > li > img {
+    height: 35px;
+}
+
+button[id^="problem-set-sort-button"] {
+    flex-basis: content;
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+    margin-bottom: 92px;
+    height: 32px;
+}
+
+#problem-set-sort-button-tier {
+    margin-left: auto;
+    margin-right: 8px;
+}
+
+#problem-set-sort-button-random {
+    margin-left: 8px;
+    margin-right: auto;
+}

@@ -1,0 +1,87 @@
+#modal-open-input {
+    width: 216px;
+}
+
+body.modal-open {
+    position: relative;
+    overflow-x: auto !important;
+    padding-right: 0 !important;
+}
+
+.modal, .modal-backdrop {
+    position: absolute;
+    width: 100%;
+    min-width: 1140px;
+    min-height: 650px;
+}
+
+.modal-backdrop {
+    height: max(100%, 100vh);
+}
+
+.modal-dialog {
+    width: 500px;
+    height: 550px;
+    margin: 1.75rem auto;
+}
+
+.modal-content {
+    height: 100%;
+}
+
+.modal-header {
+    font-size: 20px;
+}
+
+.modal-body .error {
+    font-size: 1em;
+}
+
+.tag {
+    word-break: break-all;
+}
+
+.tag-key {
+    font-size: 0.75em;
+    color: #777777;
+}
+
+#tag-search-icon {
+    box-sizing: content-box;
+    width: 24px;
+    padding-right: 16px;
+}
+
+#tag-search-input {
+    width: 100%;
+    border: 0;
+}
+
+#tag-search-input:focus {
+    outline: none;
+}
+
+#searched-tag-list {
+    max-height: 453px;
+    overflow-y: auto;
+}
+
+#searched-tag-list .tag{
+    width: 350px;
+}
+
+#selected-tag-list {
+    margin-top: 23.2px;
+    width: 275px;
+    border-radius: 0.2rem;
+    max-height: 548.8px;
+    overflow-y: auto;
+}
+
+#selected-tag-list > li {
+    padding: 3px 8px;
+}
+
+#selected-tag-list .tag {
+    width: 208px;
+}
