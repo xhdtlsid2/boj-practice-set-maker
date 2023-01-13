@@ -2,7 +2,7 @@ import Col from "react-bootstrap/Col";
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Tooltip from 'react-bootstrap/Tooltip';
 import Button from "react-bootstrap/Button";
-import { tierName } from "../Utils/TierName";
+import { tierName } from "../utils/TierName";
 import expand from "../images/chevron-down.svg";
 import collapse from "../images/chevron-up.svg";
 import help from "../images/question-circle.svg";

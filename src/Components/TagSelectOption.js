@@ -7,7 +7,7 @@ import Modal from "react-bootstrap/Modal";
 import ListGroup from "react-bootstrap/ListGroup";
 import Button from "react-bootstrap/Button";
 import CloseButton from "react-bootstrap/CloseButton";
-import { errorMessages } from "../Utils/ErrorMessage";
+import { errorMessages } from "../utils/ErrorMessage";
 import help from "../images/question-circle.svg";
 import Search from "../images/search.svg";
 

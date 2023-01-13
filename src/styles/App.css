@@ -55,8 +55,13 @@ input {
 }
 
 .tooltip {
+    font-family: pretendard, sans-serif;
     font-size: 0.8em;
     position: absolute !important;
+}
+
+.tooltip-inner {
+    max-width: 210px;
 }
 
 .error {

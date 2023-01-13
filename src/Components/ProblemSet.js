@@ -2,7 +2,7 @@ import { useState } from "react";
 import Row from "react-bootstrap/Row";
 import Button from "react-bootstrap/Button";
 import ListGroup from "react-bootstrap/ListGroup";
-import { tierName, solvedacLevelToTierIndex } from "../Utils/TierName";
+import { tierName, solvedacLevelToTierIndex } from "../utils/TierName";
 import prevPage from "../images/chevron-left.svg";
 import nextPage from "../images/chevron-right.svg";
 

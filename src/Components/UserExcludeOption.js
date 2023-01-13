@@ -6,7 +6,7 @@ import Tooltip from "react-bootstrap/Tooltip";
 import Button from "react-bootstrap/Button";
 import ListGroup from "react-bootstrap/ListGroup";
 import CloseButton from "react-bootstrap/CloseButton";
-import { errorMessages } from "../Utils/ErrorMessage";
+import { errorMessages } from "../utils/ErrorMessage";
 import help from "../images/question-circle.svg";
 
 /**
