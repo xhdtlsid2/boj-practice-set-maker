@@ -51,7 +51,7 @@ button[id^="problem-set-sort-button"] {
     display: flex;
     align-items: center;
     margin-top: 16px;
-    margin-bottom: 92px;
+    margin-bottom: 35px;
     height: 32px;
 }
 
@@ -63,8 +63,4 @@ button[id^="problem-set-sort-button"] {
 #problem-set-sort-button-random {
     margin-left: 8px;
     margin-right: auto;
-}
-
-#problem-set-comma-separated-list {
-    display: none;
 }

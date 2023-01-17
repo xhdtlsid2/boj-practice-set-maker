@@ -86,9 +86,6 @@ export default function ProblemSet({
                     무작위로 섞기
                 </Button>
             </Row>
-            <div id="problem-set-comma-separated-list">
-                {problemSet.map(({ problemId }) => problemId).join(",")}
-            </div>
         </>
     );
 }

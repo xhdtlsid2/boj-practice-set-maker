@@ -105,6 +105,22 @@ input {
     margin-right: 4px;
 }
 
+#chrome-extension-link {
+    flex-basis: content;
+    margin: 0 auto 165px;
+    color: gray;
+    font-size: 0.9em;
+}
+
+#chrome-extension-link > img {
+    vertical-align: -2px;
+    margin-left: 2px;
+}
+
+#problem-set-comma-separated-list {
+    display: none;
+}
+
 .tier-0 {
     color: #ad5600;
 }

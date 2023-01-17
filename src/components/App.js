@@ -13,6 +13,7 @@ import { errorMessages } from "../utils/ErrorMessage";
 import leftBrace from "../images/left-brace.svg";
 import rightBrace from "../images/right-brace.svg";
 import error from "../images/exclamation-triangle-fill.svg";
+import link from "../images/box-arrow-up-right.svg";
 
 /**
  * documentation(unofficial): https://solvedac.github.io/unofficial-documentation/#/operations/searchProblem
@@ -122,11 +123,27 @@ export default function App(){
                     </Row>
                 }
                 {problemSet.length > 0 &&
-                    <ProblemSet
-                        key={problemSetId}
-                        problemSet={problemSet}
-                        updateProblemSet={updateProblemSet}
-                    />
+                    <>
+                        <ProblemSet
+                            key={problemSetId}
+                            problemSet={problemSet}
+                            updateProblemSet={updateProblemSet}
+                        />
+                        <Row>
+                            <a
+                                id="chrome-extension-link"
+                                href="https://chrome.google.com/webstore/detail/boj-practice-problem-adde/dinlcpopclnciiadkcmffaglelfliohm"
+                                target="_black"
+                                rel="noreferrer"
+                            >
+                                Chrome 확장 프로그램으로 간편하게 연습에 문제 추가하기
+                                <img src={link} alt="링크" />
+                            </a>
+                        </Row>
+                        <div id="problem-set-comma-separated-list">
+                            {problemSet.map(({ problemId }) => problemId).join(",")}
+                        </div>
+                    </>
                 }
             </Container>
         </>
