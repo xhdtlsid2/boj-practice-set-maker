@@ -64,3 +64,7 @@ button[id^="problem-set-sort-button"] {
     margin-left: 8px;
     margin-right: auto;
 }
+
+#problem-set-comma-separated-list {
+    display: none;
+}
