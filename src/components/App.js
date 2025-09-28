@@ -66,7 +66,9 @@ export default function App() {
           const problemQuery = `*${"bsgpdr"[optionIndex]}${
             subIndex ? "54321"[subIndex - 1] : ""
           }`;
-          const query = `${problemQuery}%20${userExcludeQuery}(${tagSelectQuery})`;
+          const query = `${problemQuery}%20${userExcludeQuery}${
+            tagSelectQuery.length === 0 ? "" : `(${tagSelectQuery})`
+          }`;
           return axios.get(`${PROXY_API_ENDPOINT}?query=${query}&sort=random`);
         })
       );
