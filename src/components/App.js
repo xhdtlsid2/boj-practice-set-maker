@@ -18,7 +18,7 @@ import link from "../images/box-arrow-up-right.svg";
 /**
  * documentation(unofficial): https://solvedac.github.io/unofficial-documentation/#/operations/searchProblem
  */
-const SOLVEDAC_API_ENDPOINT = "https://solved.ac/api/v3/search/problem";
+const SOLVEDAC_API_ENDPOINT = "https://boj-practice.meethub.app/api/v3/search/problem";
 const MAX_PROBLEMSET_SIZE = 26;
 
 export default function App(){
