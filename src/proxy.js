@@ -46,14 +46,14 @@ export default {
 
     async function handleRequest(request) {
       const url = new URL(request.url);
-      const apiUrl = "https://solved.ac/api/v3/search/problem";
+      const apiUrl = `https://solved.ac/api/v3/search/problem${url.search}`;
 
       // Rewrite request to point to API URL. This also makes the request mutable
       // so you can add the correct Origin header to make the API server think
       // that this request is not cross-site.
       request = new Request(apiUrl, request);
       request.headers.set("Origin", new URL(apiUrl).origin);
-      let response = await fetch(request);
+      let response = await fetch(apiUrl, request);
       // Recreate the response so you can modify the headers
 
       response = new Response(response.body, response);
