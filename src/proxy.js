@@ -46,7 +46,7 @@ export default {
 
     async function handleRequest(request) {
       const url = new URL(request.url);
-      const apiUrl = `https://solved.ac/api/v3/search/problem${url.search}`;
+      const apiUrl = `https://solved.ac${url.pathname}${url.search}`;
 
       // Rewrite request to point to API URL. This also makes the request mutable
       // so you can add the correct Origin header to make the API server think
